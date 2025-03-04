@@ -1,0 +1,43 @@
+#headpart{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+}
+#headpart img{
+    width:150px;
+}
+#headpart nav ul{
+    display:flex;
+    gap:80px;
+    
+}
+#headpart #btn1{
+    display: flex;
+     gap:30px;
+}
+a{
+    color: rgba(53, 1, 1, 0.91);
+    font-size: 20px;
+    text-decoration: none;
+}
+p{
+    color:rgba(53, 1, 1, 0.91);
+    font-size: 20px; 
+}
+button{
+    width:150px;
+    height: 40px;
+    align-items: center;
+    border: 1px solid rgba(53, 1, 1, 0.91);
+    border-radius: 20px;
+    background-color:rgba(53, 1, 1, 0.91);
+    color: whitesmoke;
+}
+
+
+
+
+
+
