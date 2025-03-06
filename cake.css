@@ -15,6 +15,8 @@
 }
 #headpart #btn1{
     display: flex;
+    justify-content: center;
+    align-items: center;
      gap:30px;
 }
 a{
@@ -22,11 +24,12 @@ a{
     font-size: 20px;
     text-decoration: none;
 }
-p{
+.para1{
     color:rgba(53, 1, 1, 0.91);
     font-size: 20px; 
 }
-button{
+
+.btn1{
     width:150px;
     height: 40px;
     align-items: center;
@@ -34,7 +37,89 @@ button{
     border-radius: 20px;
     background-color:rgba(53, 1, 1, 0.91);
     color: whitesmoke;
+    
 }
+
+ul{
+    list-style: none;
+}
+
+/* header code ends */
+
+#home-page{
+    width:100%;
+    height:100vh;
+    border:1px solid black;
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(242, 229, 211);
+}
+
+#home{
+    padding:100px 100px 100px 50px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+#home-page img{
+    width:500px;
+    display:flex;
+    align-items: flex-end;
+    border-radius: 50%;
+}
+.heading1{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.para2{
+    font-size: 20px;
+}
+.btn2{
+    height:50px;
+    width:150px;
+    border: 1px solid rgba(53, 1, 1, 0.91);
+    background-color:rgba(53, 1, 1, 0.91);
+    color:rgb(242, 229, 211);
+    font-size: 20px;
+}
+
+/* first page completed */
+
+
+#about-us{
+    width:100%;
+    height:100vh;
+    border:1px solid black;
+    display:flex;
+    justify-content: space-between;
+
+}
+#about-us div{
+    padding:100px 100px 100px 50px;
+    display:flex;
+    justify-content:space-between;
+
+}
+#about-us img{
+    width:500px;
+    display:flex;
+    align-items: flex-start;
+}
+.heading2{
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+#about-us #about div{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
 
 
 
