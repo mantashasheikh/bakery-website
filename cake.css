@@ -58,7 +58,7 @@ ul{
 #home{
     padding:100px 100px 100px 50px;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
 }
 #home-page img{
@@ -91,16 +91,15 @@ ul{
     height:100vh;
     border:1px solid black;
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: rgba(250, 239, 241, 0.88);
 
 }
 #about{
     display:flex;
-    
-     justify-content: space-between;
-     gap:600px;
-     padding: 100px 0px 0px 100px;
+    justify-content:space-between;
+    gap:300px;
+    padding: 100px 0px 0px 100px;
 }
 .about1{
     
