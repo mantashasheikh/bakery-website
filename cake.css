@@ -254,6 +254,10 @@ h3{
 }
 .contact1 div{
     display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
 }
 #contact-form form{
     display:flex;
