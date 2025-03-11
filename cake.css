@@ -288,6 +288,48 @@ h3{
     font-size: 22px;
 }
 
+/* contact form completed */
+
+#end{
+    height:50vh;
+    width:100%;
+    background-color: rgb(84, 45, 21);
+    border: 1px solid black;
+    padding-top: 50px;
+}
+#end div{
+    text-align: center;
+    color: azure;
+}
+.heading6{
+    font-size: 50px;
+}
+#end1 i{
+    font-size: 50px;
+}
+#endl i:hover{
+   background-color: burlywood;
+}
+.end1{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+}
+.para5{
+    font-size: 20px;
+}
+
+b{
+    font-size: 25px;
+}
+.para6{
+    font-size: 20px;
+}
+.para6 p{
+    color: burlywood;
+}
+
+
 
 
 
