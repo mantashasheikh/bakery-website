@@ -329,14 +329,41 @@ b{
     color: burlywood;
 }
 
+#bars{
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
 /* website completed */
 
 /* media query */
 
 @media(max-width:430px){
+
+    #bars{
+        display: block;
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        font-size: 40px;
+    }
+
     #headpart nav ul{
         display: none;
+       
     }
+    
+    #check:checked~#headpart nav ul{
+        display: block;
+        border: 1px solid black;
+        height: 120px;
+        width: 100px;
+        padding-right: ;
+    }
+
     #headpart #btn1{
         display: none;
     }
