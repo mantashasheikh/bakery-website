@@ -382,7 +382,7 @@ b{
     }
     #home-page{
         width: 100%;
-        height: 180vh;
+        height: 160vh;
         display: flex;
         align-items: center;
     }
@@ -409,7 +409,7 @@ b{
     /* about us page */
     #about-us{
         width: 100%;
-        height: 180vh;
+        height: 160vh;
         display: flex;
         align-items: center;
     }
@@ -426,6 +426,7 @@ b{
     }
     .about1 img{
         width:300px;
+        height:300px;
         position: absolute;
         align-items: center;
         left: 10%;
@@ -449,11 +450,11 @@ b{
     /* menu page */
     #menu{
         width: 100%;
-        height:200vh;
+        height:160vh;
     }
     #container-menu{
         width: 100%;
-        height:200vh;
+        height:160vh;
     }
     .menu1{
         display:grid ;
@@ -487,11 +488,11 @@ b{
     /* theme page */
     #theme{
         width: 100%;
-        height:200vh;
+        height:160vh;
     }
     #container-theme{
         width:100%;
-        height:200vh;
+        height:160vh;
         border: 1px solid black;
         background-color: rgb(241, 217, 245);
         padding-top:30px ;
@@ -566,12 +567,9 @@ b{
     #end1 i{
         font-size: 30px;
     }
-    
-    
     .para5{
         font-size: 15px;
     }
-    
     b{
         font-size: 20px;
     }
