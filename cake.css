@@ -290,6 +290,8 @@ h3{
 
 /* contact form completed */
 
+/* start to create footer page */
+
 #end{
     height:50vh;
     width:100%;
@@ -328,6 +330,7 @@ b{
 .para6 p{
     color: burlywood;
 }
+/* footer page ends here */
 
 #bars{
     display: none;
@@ -348,13 +351,20 @@ b{
         position: absolute;
         top: 8%;
         right: 8%;
-        font-size: 40px;
+        font-size: 30px;
     }
 
     #headpart nav ul{
         display: none;
        
     }
+    #headpart nav ul a{
+        font-size: 15px;
+    }
+    #headpart nav ul a:hover{
+        font-size: 20px;
+    }
+
     
     #check:checked~#headpart nav ul{
         display: block;
@@ -364,7 +374,7 @@ b{
         padding-right:60px ;
     }
     #bars i{
-        color:rgb(93, 31, 31); ;
+        color:rgb(59, 22, 22); ;
     }
 
     #headpart #btn1{
@@ -549,7 +559,27 @@ b{
     }
 
     /* footer page */
+
+    .heading6{
+        font-size: 30px;
+    }
+    #end1 i{
+        font-size: 30px;
+    }
     
+    
+    .para5{
+        font-size: 15px;
+    }
+    
+    b{
+        font-size: 20px;
+    }
+    .para6{
+        font-size: 15px;
+    }
+    
+
     
     
 
