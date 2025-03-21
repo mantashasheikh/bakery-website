@@ -58,7 +58,7 @@ nav ul li a:hover{
 #home-page{
     width:100%;
     height:100vh;
-    /* border:1px solid black; */
+    
     display:flex;
     flex-direction: column;
     background-color: rgb(242, 229, 211);
@@ -98,7 +98,7 @@ nav ul li a:hover{
 #about-us{
     width:100%;
     height:100vh;
-    /* border:1px solid black; */
+    
     display:flex;
     justify-content: center;
     background-color: rgba(250, 239, 241, 0.88);
@@ -108,7 +108,7 @@ nav ul li a:hover{
     display:flex;
     justify-content:space-between;
     gap:300px;
-    padding: 100px 0px 0px 100px;
+   padding: 100px 0px 100px 0px;
 }
 .about1{
     
@@ -158,7 +158,7 @@ nav ul li a:hover{
 #container-menu{
     width:100%;
     height:130vh;
-    /* border: 1px solid rgb(220, 215, 215); */
+    
     background-color: rgb(226, 222, 222);
     padding-top:30px ;
 }
@@ -198,7 +198,7 @@ h3{
 #container-theme{
     width:100%;
     height:130vh;
-    /* border: 1px solid black; */
+    
     background-color: rgb(241, 217, 245);
     padding-top:30px ;
 }
@@ -237,7 +237,7 @@ h3{
 #contact-us{
     width: 100%;
     height: 100vh;
-    /* border:1px solid black; */
+   
     background-color: rgb(195, 227, 240);
 }
 #contact-us h1{
@@ -296,7 +296,7 @@ h3{
     height:50vh;
     width:100%;
     background-color: rgb(56, 25, 6);
-    border: 1px solid black;
+    
     padding-top: 50px;
 }
 #end div{
@@ -369,7 +369,7 @@ b{
     #check:checked~#headpart nav ul{
         display: block;
         /* background-color: rgb(241, 221, 196); */
-        /* border: 1px solid black; */
+        
         height: 120px;
         width: 100px;
         padding-right:60px ;
@@ -412,7 +412,7 @@ b{
         width: 100%;
         height: 180vh;
         display: flex;
-        /* align-items: center; */
+        
         
     }
     #about{
@@ -433,7 +433,7 @@ b{
         
         left: 10%;
         margin-top: 100px;
-        /* padding: 250px; */
+        
         
 
     }
@@ -509,7 +509,7 @@ b{
     #container-theme{
         width:100%;
         height:180vh;
-        border: 1px solid black;
+       
         background-color: rgb(241, 217, 245);
         padding-top:30px ;
     }
