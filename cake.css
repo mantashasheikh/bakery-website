@@ -368,6 +368,7 @@ b{
     
     #check:checked~#headpart nav ul{
         display: block;
+        /* background-color: rgb(241, 221, 196); */
         /* border: 1px solid black; */
         height: 120px;
         width: 100px;
