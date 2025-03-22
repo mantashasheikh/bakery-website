@@ -245,6 +245,7 @@ h3{
     text-align: center;
     color:rgba(53, 1, 1, 0.91); ;
     text-decoration: underline;
+    padding-top: 50px;
 }
 #container-contact{
     display: flex;
@@ -256,7 +257,7 @@ h3{
     display:flex;
     justify-content: center;
     align-items: center;
-    gap:10px;
+    gap:10px
 
 }
 #contact-form form{
@@ -549,7 +550,7 @@ b{
         display: flex;
         flex-direction: column;
         padding-top:50px ;
-        gap:10px;
+       
     }
     .contact1 div{
         display:flex;
